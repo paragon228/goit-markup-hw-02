@@ -77,6 +77,7 @@ ul {
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
+  cursor: pointer;
 }
 
 .button.primary {
@@ -90,4 +91,8 @@ ul {
 
 .link {
   text-decoration: none;
+}
+
+.footer {
+  background-color: var(--dark-bg-color);
 }
