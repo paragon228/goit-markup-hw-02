@@ -11,6 +11,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -21,6 +22,20 @@ body {
 
 ul {
   list-style: none;
+}
+
+.link-page {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.accent {
+  color: var(--accent-color);
 }
 
 .site-nav .link {
@@ -40,6 +55,19 @@ ul {
   color: var(--accent-color);
 }
 
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+.site-contacts .link {
+  color: inherit;
+}
+
+.hero {
+  background-color: var(--dark-bg-color);
+}
+
 .hero-title {
   font-family: var(--title-font);
   font-weight: 900;
@@ -49,10 +77,6 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-}
-
-.hero {
-  background-color: var(--dark-bg-color);
 }
 
 .section-title {
@@ -65,13 +89,29 @@ ul {
   color: var(--title-text-color);
 }
 
-.site-contacts .link:hover,
-.site-contacts .link:focus {
-  color: var(--accent-color);
+.fhoto-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
-.site-contacts .link {
-  color: inherit;
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 .button {
@@ -95,4 +135,30 @@ ul {
 
 .footer {
   background-color: var(--dark-bg-color);
+}
+
+/* portfolio */
+
+.list-options {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.card-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
