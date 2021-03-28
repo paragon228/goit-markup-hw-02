@@ -24,6 +24,24 @@ ul {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .link-page {
   text-decoration: none;
   font-family: Raleway;
@@ -65,21 +83,25 @@ ul {
 }
 
 .hero {
+  margin-bottom: 0;
+  text-align: center;
   background-color: var(--dark-bg-color);
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-family: var(--title-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
 
 .section-title {
+  margin-bottom: 10px;
   font-family: var(--title-font);
   font-weight: 700;
   font-size: 14px;
@@ -89,13 +111,27 @@ ul {
   color: var(--title-text-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-fhoto {
+  background-color: var(--secondary-bg-color);
+}
+
 .fhoto-title {
+  margin-bottom: 50px;
   font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+
+.fhoto {
+  padding-top: 0;
 }
 
 .name-title {
@@ -115,31 +151,34 @@ ul {
 }
 
 .button {
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
-  cursor: pointer;
-}
-
-.button.primary {
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .link {
   text-decoration: none;
 }
 
+.list,
+.portfolio-items {
+  padding: 0;
+  margin: 0;
+}
+
 .footer {
   background-color: var(--dark-bg-color);
 }
 
-/* portfolio */
-
 .list-options {
+  /* margin-bottom: 50px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
